@@ -16,5 +16,10 @@ const data=[
         info:'People of all ages and ethnicities, no matter where they live, can be infected by COVID-19. People of all ages and ethnicities, no matter where they live, can be infected by COVID-19'
 
     },
+    {
+        id:3,
+        title:'For the Government',
+        info:'Social distancing, qurantine and isolation Hand hygiene, cough etiquette, cleaning and laundry When children have acute respirator tract infections Risk groups and their relatives'
+    },
 ];
 export default data;

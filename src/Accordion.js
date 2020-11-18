@@ -1,15 +1,29 @@
 
 import React ,{useState} from 'react';
-import {AiOutlineClose,AiOutlinePlus} from 'react-icons';
-import data from "./data";
+import {AiOutlineClose,AiOutlinePlus} from 'react-icons/ai';
 
-const Accordion=()=>{
-    const [items,setItems] =useState(data);
 
+const Accordion=({title,info,random})=>{
+    const [showinfo,setShowInfo]=useState(false);
+    
     return(
-        <div>
-            <h2>Accordion Componenent</h2>
-        </div>
+      
+                <div className="item" >
+                   
+                    <div className="single-item" style={{backgroundColor:`hsl(${random} , 100%, 97%)`, borderLeftColor:`hsl(${random} , 100%, 80%)`}}>
+                        
+                        <button className='btn' onClick={()=>setShowInfo(!showinfo)}>
+                             {showinfo ? <AiOutlineClose size="2em"/> : <AiOutlinePlus size="2em"/>}
+                        </button>
+                        <div className="text-box">
+                          <h4 className="title-text">{title}</h4>
+                          {showinfo && <p className="info-text">{info}</p> }
+                        </div>
+
+                    </div>
+
+                </div>
+  
     )
 }
 
