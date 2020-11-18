@@ -5,12 +5,10 @@ import Accordion from "./Accordion";
 
 
 function App() {
-  
+  /* function to generate a random number to be used for generating random color using hsl */
   const randomColor=()=>{
     const random=Math.random()*360;
     return random;
-    
-    
  }
 
   return (

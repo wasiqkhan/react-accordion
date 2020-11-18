@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Accordion
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### Inspired by
+
+[Accordion](https://uidesigndaily.com/posts/sketch-accordion-day-1220).
+
+![Accordion UI Design Daily](https://uidesigndaily.com/uploads/1220/day_1220.png)
 
 ## Available Scripts
 
