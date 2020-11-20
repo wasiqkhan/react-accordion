@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![Output](https://github.com/wasiqkhan/react-accordion/blob/master/public/gif.gif)
+
+
 ### Inspired by
 
 [Accordion](https://uidesigndaily.com/posts/sketch-accordion-day-1220).
